@@ -176,7 +176,7 @@ const NetflixRecommendationSystem = () => {
         )}
         {showRating && userRatings[movie.id] && (
           <div className="bg-slate-800 text-center py-2 rounded text-green-400 font-semibold">
-            Rated: {userRatings[movie.id]}/5 ⭐
+            Rated: {userRatings[movie.id]}/5 
           </div>
         )}
       </div>
@@ -332,7 +332,7 @@ const NetflixRecommendationSystem = () => {
                     <div className="text-slate-300">Movies Rated</div>
                   </div>
                   <div className="bg-black bg-opacity-30 rounded-lg p-4">
-                    <div className="text-3xl font-bold">{userProfile.avgRating}⭐</div>
+                    <div className="text-3xl font-bold">{userProfile.avgRating}</div>
                     <div className="text-slate-300">Avg Rating</div>
                   </div>
                   <div className="bg-black bg-opacity-30 rounded-lg p-4">
